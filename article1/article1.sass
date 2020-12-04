@@ -1,0 +1,111 @@
+body
+    margin: 0
+    font-family: Google Sans
+    background-color: #100e17
+    font-size: 1.1rem
+$gradient: linear-gradient(90deg,#ff8a00,#e52e71)
+.site-header
+    display: flex
+    justify-content: start
+    line-height: 100px
+    .logo
+        a
+            text-decoration: none
+            font-size: 2em
+            color: white
+            display: block
+            margin-left: 30px
+    .navbar
+        flex-grow: 1
+        ul
+            margin: 0
+            display: flex
+            justify-content: start
+            list-style: none
+            li
+                flex-grow: 1
+                text-align: center
+                a
+                    display: block
+                    border-left: 1px solid #1c1c1c
+                    color: white
+                    text-decoration: none
+                a:hover
+                    background: $gradient
+                    -webkit-background-clip: text
+                    -webkit-text-fill-color: transparent
+    .search-form
+        border-left: 1px solid #1c1c1c
+        padding-left: 30px
+        display: flex
+        align-items: center
+        margin-right: 40px
+        input
+            width: 24vw
+            height: 50px
+            padding: 20px
+            border-radius: 25px
+            background-color: #201c29
+            border: 1px solid #5a5a5a
+            color: white
+            font-size: 1.2rem
+            margin-right: -58px
+        button
+            border-radius: 5px 25px 25px 5px
+            height: 48px
+            background: $gradient
+            border: none
+        input:focus
+            border: 2px solid #fff
+hr
+    background: linear-gradient(90deg,#ff8800,#ff005d)
+    height: 1px
+    margin: 0
+.article-title
+    margin-top: 60px
+    margin-left: 100px
+    a:hover
+        background: $gradient
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+    .path
+        a
+            text-decoration: none
+            color: #7a7a8c
+            font-weight: 800
+    .title
+        h1
+            color: white
+            font-size: 3rem
+            margin-top: 7px
+    .meta
+        margin-top: 46px
+        display: flex
+        width: 20vw
+        justify-content: space-between
+        font-size: 0.8rem
+        font-weight: 700
+        .title-meta
+            margin-bottom: 7px
+            color: #7a7a8c
+        .name
+            color: white
+            a
+                text-decoration: none
+                color: white
+.gradline
+    width: 90vw
+    height: 2rem
+    background-image: $gradient
+    border-radius: 7px
+    margin-top: 80px
+    margin-left: 11px
+.content
+    background-color: #fff
+    width: 65vw
+    margin-top: -12px
+    margin-left: 100px
+    border-radius: 10px
+    margin-bottom: 250px
+    .text
+        padding: 90px

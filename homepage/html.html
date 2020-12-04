@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-TRICKS</title>
+    <link rel="stylesheet" href="sass.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">
+        <a href="html.html">CSS-TRICKS</a>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a href="">Articles</a></li>
+          <li><a href="">Video</a></li>
+          <li><a href="">Almanac</a></li>
+          <li><a href="">Newsletter</a></li>
+          <li><a href="">Guides</a></li>
+          <li><a href="">Books</a></li>
+          <li><a href="">Account</a></li>
+        </ul>
+      </div>
+      <form
+        role="search"
+        method="get"
+        id="searchform"
+        class="search-form"
+        action="https://css-tricks.com/"
+        autocomplete="off"
+      >
+        <input
+          type="search"
+          required=""
+          name="s"
+          id="search-input"
+          class="search-field"
+          placeholder="e.g. flexbox"
+          value=""
+          autocomplete="off"
+        />
+
+        <button type="submit" class="button-search">
+          <span class="screen-reader-text">Search</span>
+        </button>
+      </form>
+    </header>
+    <hr />
+    <div class="fresh">
+      <article class="fresh-article">
+        <div class="fresh-article-subhead">
+          Fresh Article
+          <time datetime="2020-11-17">&nbsp November 17, 2020 </time>
+        </div>
+        <p class="fresh-title">
+          <b
+            ><a href="/article1/article1.html" target="_blank"
+              >Measuring Core Web Vitals with Sentry</a
+            ></b
+          >
+        </p>
+        <div class="fresh-author">
+          <div class="fresh-author-name-prefix">Author</div>
+          <a href="" class="fresh-author-name">Robin Rendle</a>
+        </div>
+        <p class="fresh-content">
+          Chris made a few notes about <a href="">Core Web Vitals</a> the other
+          day, explaining why measuring these performance metrics are so gosh
+          darn important:<br />
+          <i class="quote"
+            >"I still think the Google-devised Core Web Vitals are smart. When I
+            first got into caring about performance, it was all: reduce
+            requests! cache things! Make stuff smaller! And while those are all
+            very related to web performance, they are abstractly related. Actual
+            web performance to users are things like how long did I have to
+            wait"</i
+          >...
+        </p>
+        <div class="fresh-links">
+          <br />
+          <a href=""><b>Read article</b></a>
+        </div>
+        <div class="tag-container">
+          <a href="" class="tag">ANIMATION</a>
+          <a href="" class="tag">BLUR</a>
+          <a href="" class="tag">TRANSITION</a>
+        </div>
+      </article>
+    </div>
+    <div class="popular-articles">
+      <header class="popular-header-card">
+        <h1>Popular this month</h1>
+      </header>
+      <div class="mini-card-container">
+        <article class="mini-card">
+          <header class="mini-card-header">
+            <div class="mini-card-subhead">
+              Article
+              <time datetime="2020-10-14"> Oct 14, 2020 </time>
+            </div>
+            <h3 class="read-article">
+              <a href="read-article-link">
+                How to Create a Realistic Motion Blur with CSS Transitions
+              </a>
+            </h3>
+          </header>
+          <div class="author">
+            <div class="author-name-prefix">Author</div>
+            <a href="" class="author-name">Neale Van Fleet</a>
+          </div>
+          <div class="tag-container">
+            <a href="" class="tag">ANIMATION</a>
+            <a href="" class="tag">BLUR</a>
+            <a href="" class="tag">TRANSITION</a>
+          </div>
+        </article>
+        <article class="mini-card">
+          <header class="mini-card-header">
+            <div class="mini-card-subhead">
+              Article
+              <time datetime="2020-10-14"> Oct 14, 2020 </time>
+            </div>
+            <h3 class="read-article">
+              <a href="read-article-link">
+                How to Create a Realistic Motion Blur with CSS Transitions
+              </a>
+            </h3>
+          </header>
+          <div class="author">
+            <div class="author-name-prefix">Author</div>
+            <a href="" class="author-name">Neale Van Fleet</a>
+          </div>
+          <div class="tag-container">
+            <a href="" class="tag">ANIMATION</a>
+            <a href="" class="tag">BLUR</a>
+            <a href="" class="tag">TRANSITION</a>
+          </div>
+        </article>
+        <article class="mini-card">
+          <header class="mini-card-header">
+            <div class="mini-card-subhead">
+              Article
+              <time datetime="2020-10-14"> Oct 14, 2020 </time>
+            </div>
+            <h3 class="read-article">
+              <a href="read-article-link">
+                How to Create a Realistic Motion Blur with CSS Transitions
+              </a>
+            </h3>
+          </header>
+          <div class="author">
+            <div class="author-name-prefix">Author</div>
+            <a href="" class="author-name">Neale Van Fleet</a>
+          </div>
+          <div class="tag-container">
+            <a href="" class="tag">ANIMATION</a>
+            <a href="" class="tag">BLUR</a>
+            <a href="" class="tag">TRANSITION</a>
+          </div>
+        </article>
+        <article class="mini-card">
+          <header class="mini-card-header">
+            <div class="mini-card-subhead">
+              Article
+              <time datetime="2020-10-14"> Oct 14, 2020 </time>
+            </div>
+            <h3 class="read-article">
+              <a href="read-article-link">
+                How to Create a Realistic Motion Blur with CSS Transitions
+              </a>
+            </h3>
+          </header>
+          <div class="author">
+            <div class="author-name-prefix">Author</div>
+            <a href="" class="author-name">Neale Van Fleet</a>
+          </div>
+          <div class="tag-container">
+            <a href="" class="tag">ANIMATION</a>
+            <a href="" class="tag">BLUR</a>
+            <a href="" class="tag">TRANSITION</a>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="article-container">
+      <article class="article">
+        <div class="article-subhead">
+          Link
+          <time datetime="2020-10-14">&nbsp November 16, 2020 </time>
+        </div>
+        <p class="title">
+          <b
+            ><a href=""
+              >Logical layout enhancements with flow-relative shorthands</a
+            ></b
+          >
+        </p>
+        <div class="author">
+          <div class="author-name-prefix">Shared by</div>
+          <a href="" class="author-name">Chris Coyier</a>
+        </div>
+        <p class="content">
+          Admission: I’ve never worked on a website that was in anything other
+          than English. I have worked on websites that were translated by other
+          teams, but I didn’t have much to do with it. I do, however, spend a
+          lot of time thinking in terms of block-level and inline-level
+          elements. It’s been a couple of years now since
+          <a href="https://css-tricks.com/css-logical-properties/"
+            >logical properties</a
+          >
+          have started to drop, and they have definitely started to invade my
+          CSS muscle memory.<br /><br />If you work in top-to-bottom, ....
+        </p>
+        <div class="links">
+          <br />
+          <a href="">Our Notes &nbsp</a>
+          /
+          <a href="">&nbsp Read at web.dev</a>
+        </div>
+        <div class="tag-container">
+          <a href="" class="tag">ANIMATION</a>
+          <a href="" class="tag">BLUR</a>
+          <a href="" class="tag">TRANSITION</a>
+        </div>
+      </article>
+      <a href="" class="continue"><b>Keep browsing in the archive</b></a>
+    </div>
+    <div class="monthly-mixup">
+      <h1>Monthly Mixup</h1>
+      <svg class="mixup-background-star">
+        <style type="text/css">
+          path {
+            fill: url(#MyGradient);
+          }
+        </style>
+        <defs>
+          <linearGradient id="MyGradient">
+            <stop offset="0%" stop-color="#ff8a00" />
+            <stop offset="100%" stop-color="#e52e71" />
+          </linearGradient>
+        </defs>
+
+        <use xlink:href="#icon-logo-star">
+          <symbol id="icon-logo-star" viewBox="0 0 362.62 388.52">
+            <path
+              d="M156.58 239l-88.3 64.75c-10.59 7.06-18.84 11.77-29.43 11.77-21.19 0-38.85-18.84-38.85-40 0-17.69 14.13-30.64 27.08-36.52l103.6-44.74-103.6-45.92C13 142.46 0 129.51 0 111.85 0 90.66 18.84 73 40 73c10.6 0 17.66 3.53 28.25 11.77l88.3 64.75-11.74-104.78C141.28 20 157.76 0 181.31 0s40 18.84 36.5 43.56L206 149.52l88.3-64.75C304.93 76.53 313.17 73 323.77 73a39.2 39.2 0 0138.85 38.85c0 18.84-12.95 30.61-27.08 36.5l-103.61 45.91L335.54 239c14.13 5.88 27.08 18.83 27.08 37.67 0 21.19-18.84 38.85-40 38.85-9.42 0-17.66-4.71-28.26-11.77L206 239l11.77 104.78c3.53 24.72-12.95 44.74-36.5 44.74s-40-18.84-36.5-43.56z"
+            ></path>
+          </symbol>
+        </use>
+      </svg>
+    </div>
+  </body>
+</html>
